@@ -217,7 +217,24 @@
       ]
     }
   ],
-  "apps": [],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Rate of Change Explorer",
+      "url": "https://rateofchangeexplorer.netlify.app/",
+      "description": "Drag point A and adjust the interval width h to see the secant line update live across quadratic, cubic, sine, and exponential functions. Switch to Real-World View to see the same rate of change modeled as roller coaster speed, profit rate, population growth, or bacterial division. Slide h toward zero to preview how average rate of change becomes instantaneous rate of change.",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2",
+        "faq-4",
+        "faq-9",
+        "faq-10",
+        "faq-14",
+        "faq-15",
+        "faq-16"
+      ]
+    }
+  ],
   "prompts": {
     "guided": [
       {
