@@ -233,6 +233,20 @@
         "faq-15",
         "faq-16"
       ]
+    },
+    {
+      "id": "app-2",
+      "title": "Slope Detective",
+      "url": "https://slopedetective.netlify.app/",
+      "description": "Practice calculating slope from coordinate points, tables, and graphs, including the horizontal (slope = 0) and vertical (slope = undefined) special cases, with instant feedback.",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-7",
+        "faq-8",
+        "faq-11",
+        "faq-12",
+        "faq-13"
+      ]
     }
   ],
   "prompts": {
