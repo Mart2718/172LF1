@@ -284,5 +284,237 @@
         "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section LF1 (Slope and Average Rate of Change). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
       }
     ]
-  }
+  },
+  "paths": [
+    {
+      "id": "LF1",
+      "label": "LF1: Slope and Average Rate of Change",
+      "sectionLabel": "LF1, Slope and Average Rate of Change",
+      "intro": "Builds to the LF1 check: finding an average rate of change, and finding slopes of lines given as a graph, a table, or two points.",
+      "graphs": {
+        "LA": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 308 308\" width=\"308\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of a line passing through (-2, -7), (-1, -5), (0, -3).\"><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"18\" y2=\"18\"/><line class=\"g-grid\" x1=\"35\" y1=\"290\" x2=\"35\" y2=\"18\"/><line class=\"g-grid\" x1=\"52\" y1=\"290\" x2=\"52\" y2=\"18\"/><line class=\"g-grid\" x1=\"69\" y1=\"290\" x2=\"69\" y2=\"18\"/><line class=\"g-grid\" x1=\"86\" y1=\"290\" x2=\"86\" y2=\"18\"/><line class=\"g-grid\" x1=\"103\" y1=\"290\" x2=\"103\" y2=\"18\"/><line class=\"g-grid\" x1=\"120\" y1=\"290\" x2=\"120\" y2=\"18\"/><line class=\"g-grid\" x1=\"137\" y1=\"290\" x2=\"137\" y2=\"18\"/><line class=\"g-grid\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><line class=\"g-grid\" x1=\"171\" y1=\"290\" x2=\"171\" y2=\"18\"/><line class=\"g-grid\" x1=\"188\" y1=\"290\" x2=\"188\" y2=\"18\"/><line class=\"g-grid\" x1=\"205\" y1=\"290\" x2=\"205\" y2=\"18\"/><line class=\"g-grid\" x1=\"222\" y1=\"290\" x2=\"222\" y2=\"18\"/><line class=\"g-grid\" x1=\"239\" y1=\"290\" x2=\"239\" y2=\"18\"/><line class=\"g-grid\" x1=\"256\" y1=\"290\" x2=\"256\" y2=\"18\"/><line class=\"g-grid\" x1=\"273\" y1=\"290\" x2=\"273\" y2=\"18\"/><line class=\"g-grid\" x1=\"290\" y1=\"290\" x2=\"290\" y2=\"18\"/><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"290\" y2=\"290\"/><line class=\"g-grid\" x1=\"18\" y1=\"273\" x2=\"290\" y2=\"273\"/><line class=\"g-grid\" x1=\"18\" y1=\"256\" x2=\"290\" y2=\"256\"/><line class=\"g-grid\" x1=\"18\" y1=\"239\" x2=\"290\" y2=\"239\"/><line class=\"g-grid\" x1=\"18\" y1=\"222\" x2=\"290\" y2=\"222\"/><line class=\"g-grid\" x1=\"18\" y1=\"205\" x2=\"290\" y2=\"205\"/><line class=\"g-grid\" x1=\"18\" y1=\"188\" x2=\"290\" y2=\"188\"/><line class=\"g-grid\" x1=\"18\" y1=\"171\" x2=\"290\" y2=\"171\"/><line class=\"g-grid\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-grid\" x1=\"18\" y1=\"137\" x2=\"290\" y2=\"137\"/><line class=\"g-grid\" x1=\"18\" y1=\"120\" x2=\"290\" y2=\"120\"/><line class=\"g-grid\" x1=\"18\" y1=\"103\" x2=\"290\" y2=\"103\"/><line class=\"g-grid\" x1=\"18\" y1=\"86\" x2=\"290\" y2=\"86\"/><line class=\"g-grid\" x1=\"18\" y1=\"69\" x2=\"290\" y2=\"69\"/><line class=\"g-grid\" x1=\"18\" y1=\"52\" x2=\"290\" y2=\"52\"/><line class=\"g-grid\" x1=\"18\" y1=\"35\" x2=\"290\" y2=\"35\"/><line class=\"g-grid\" x1=\"18\" y1=\"18\" x2=\"290\" y2=\"18\"/><line class=\"g-axis\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-axis\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><text class=\"g-label\" x=\"18\" y=\"166\" text-anchor=\"middle\">&#8722;8</text><text class=\"g-label\" x=\"150\" y=\"294\" text-anchor=\"end\">&#8722;8</text><text class=\"g-label\" x=\"52\" y=\"166\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"150\" y=\"260\" text-anchor=\"end\">&#8722;6</text><text class=\"g-label\" x=\"86\" y=\"166\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"150\" y=\"226\" text-anchor=\"end\">&#8722;4</text><text class=\"g-label\" x=\"120\" y=\"166\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"150\" y=\"192\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"188\" y=\"166\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"150\" y=\"124\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"222\" y=\"166\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"150\" y=\"90\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"256\" y=\"166\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"150\" y=\"56\" text-anchor=\"end\">6</text><text class=\"g-label\" x=\"290\" y=\"166\" text-anchor=\"middle\">8</text><text class=\"g-label\" x=\"150\" y=\"22\" text-anchor=\"end\">8</text><line class=\"g-line\" x1=\"111.5\" y1=\"290.0\" x2=\"247.5\" y2=\"18.0\"/></svg></div>",
+        "LB": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 308 308\" width=\"308\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of a line passing through (-4, 7), (-2, 4), (0, 1).\"><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"18\" y2=\"18\"/><line class=\"g-grid\" x1=\"35\" y1=\"290\" x2=\"35\" y2=\"18\"/><line class=\"g-grid\" x1=\"52\" y1=\"290\" x2=\"52\" y2=\"18\"/><line class=\"g-grid\" x1=\"69\" y1=\"290\" x2=\"69\" y2=\"18\"/><line class=\"g-grid\" x1=\"86\" y1=\"290\" x2=\"86\" y2=\"18\"/><line class=\"g-grid\" x1=\"103\" y1=\"290\" x2=\"103\" y2=\"18\"/><line class=\"g-grid\" x1=\"120\" y1=\"290\" x2=\"120\" y2=\"18\"/><line class=\"g-grid\" x1=\"137\" y1=\"290\" x2=\"137\" y2=\"18\"/><line class=\"g-grid\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><line class=\"g-grid\" x1=\"171\" y1=\"290\" x2=\"171\" y2=\"18\"/><line class=\"g-grid\" x1=\"188\" y1=\"290\" x2=\"188\" y2=\"18\"/><line class=\"g-grid\" x1=\"205\" y1=\"290\" x2=\"205\" y2=\"18\"/><line class=\"g-grid\" x1=\"222\" y1=\"290\" x2=\"222\" y2=\"18\"/><line class=\"g-grid\" x1=\"239\" y1=\"290\" x2=\"239\" y2=\"18\"/><line class=\"g-grid\" x1=\"256\" y1=\"290\" x2=\"256\" y2=\"18\"/><line class=\"g-grid\" x1=\"273\" y1=\"290\" x2=\"273\" y2=\"18\"/><line class=\"g-grid\" x1=\"290\" y1=\"290\" x2=\"290\" y2=\"18\"/><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"290\" y2=\"290\"/><line class=\"g-grid\" x1=\"18\" y1=\"273\" x2=\"290\" y2=\"273\"/><line class=\"g-grid\" x1=\"18\" y1=\"256\" x2=\"290\" y2=\"256\"/><line class=\"g-grid\" x1=\"18\" y1=\"239\" x2=\"290\" y2=\"239\"/><line class=\"g-grid\" x1=\"18\" y1=\"222\" x2=\"290\" y2=\"222\"/><line class=\"g-grid\" x1=\"18\" y1=\"205\" x2=\"290\" y2=\"205\"/><line class=\"g-grid\" x1=\"18\" y1=\"188\" x2=\"290\" y2=\"188\"/><line class=\"g-grid\" x1=\"18\" y1=\"171\" x2=\"290\" y2=\"171\"/><line class=\"g-grid\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-grid\" x1=\"18\" y1=\"137\" x2=\"290\" y2=\"137\"/><line class=\"g-grid\" x1=\"18\" y1=\"120\" x2=\"290\" y2=\"120\"/><line class=\"g-grid\" x1=\"18\" y1=\"103\" x2=\"290\" y2=\"103\"/><line class=\"g-grid\" x1=\"18\" y1=\"86\" x2=\"290\" y2=\"86\"/><line class=\"g-grid\" x1=\"18\" y1=\"69\" x2=\"290\" y2=\"69\"/><line class=\"g-grid\" x1=\"18\" y1=\"52\" x2=\"290\" y2=\"52\"/><line class=\"g-grid\" x1=\"18\" y1=\"35\" x2=\"290\" y2=\"35\"/><line class=\"g-grid\" x1=\"18\" y1=\"18\" x2=\"290\" y2=\"18\"/><line class=\"g-axis\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-axis\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><text class=\"g-label\" x=\"18\" y=\"166\" text-anchor=\"middle\">&#8722;8</text><text class=\"g-label\" x=\"150\" y=\"294\" text-anchor=\"end\">&#8722;8</text><text class=\"g-label\" x=\"52\" y=\"166\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"150\" y=\"260\" text-anchor=\"end\">&#8722;6</text><text class=\"g-label\" x=\"86\" y=\"166\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"150\" y=\"226\" text-anchor=\"end\">&#8722;4</text><text class=\"g-label\" x=\"120\" y=\"166\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"150\" y=\"192\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"188\" y=\"166\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"150\" y=\"124\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"222\" y=\"166\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"150\" y=\"90\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"256\" y=\"166\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"150\" y=\"56\" text-anchor=\"end\">6</text><text class=\"g-label\" x=\"290\" y=\"166\" text-anchor=\"middle\">8</text><text class=\"g-label\" x=\"150\" y=\"22\" text-anchor=\"end\">8</text><line class=\"g-line\" x1=\"74.67\" y1=\"18.0\" x2=\"256.0\" y2=\"290.0\"/></svg></div>",
+        "LC": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 308 308\" width=\"308\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of a line passing through (-4, -8), (-2, -5), (0, -2).\"><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"18\" y2=\"18\"/><line class=\"g-grid\" x1=\"35\" y1=\"290\" x2=\"35\" y2=\"18\"/><line class=\"g-grid\" x1=\"52\" y1=\"290\" x2=\"52\" y2=\"18\"/><line class=\"g-grid\" x1=\"69\" y1=\"290\" x2=\"69\" y2=\"18\"/><line class=\"g-grid\" x1=\"86\" y1=\"290\" x2=\"86\" y2=\"18\"/><line class=\"g-grid\" x1=\"103\" y1=\"290\" x2=\"103\" y2=\"18\"/><line class=\"g-grid\" x1=\"120\" y1=\"290\" x2=\"120\" y2=\"18\"/><line class=\"g-grid\" x1=\"137\" y1=\"290\" x2=\"137\" y2=\"18\"/><line class=\"g-grid\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><line class=\"g-grid\" x1=\"171\" y1=\"290\" x2=\"171\" y2=\"18\"/><line class=\"g-grid\" x1=\"188\" y1=\"290\" x2=\"188\" y2=\"18\"/><line class=\"g-grid\" x1=\"205\" y1=\"290\" x2=\"205\" y2=\"18\"/><line class=\"g-grid\" x1=\"222\" y1=\"290\" x2=\"222\" y2=\"18\"/><line class=\"g-grid\" x1=\"239\" y1=\"290\" x2=\"239\" y2=\"18\"/><line class=\"g-grid\" x1=\"256\" y1=\"290\" x2=\"256\" y2=\"18\"/><line class=\"g-grid\" x1=\"273\" y1=\"290\" x2=\"273\" y2=\"18\"/><line class=\"g-grid\" x1=\"290\" y1=\"290\" x2=\"290\" y2=\"18\"/><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"290\" y2=\"290\"/><line class=\"g-grid\" x1=\"18\" y1=\"273\" x2=\"290\" y2=\"273\"/><line class=\"g-grid\" x1=\"18\" y1=\"256\" x2=\"290\" y2=\"256\"/><line class=\"g-grid\" x1=\"18\" y1=\"239\" x2=\"290\" y2=\"239\"/><line class=\"g-grid\" x1=\"18\" y1=\"222\" x2=\"290\" y2=\"222\"/><line class=\"g-grid\" x1=\"18\" y1=\"205\" x2=\"290\" y2=\"205\"/><line class=\"g-grid\" x1=\"18\" y1=\"188\" x2=\"290\" y2=\"188\"/><line class=\"g-grid\" x1=\"18\" y1=\"171\" x2=\"290\" y2=\"171\"/><line class=\"g-grid\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-grid\" x1=\"18\" y1=\"137\" x2=\"290\" y2=\"137\"/><line class=\"g-grid\" x1=\"18\" y1=\"120\" x2=\"290\" y2=\"120\"/><line class=\"g-grid\" x1=\"18\" y1=\"103\" x2=\"290\" y2=\"103\"/><line class=\"g-grid\" x1=\"18\" y1=\"86\" x2=\"290\" y2=\"86\"/><line class=\"g-grid\" x1=\"18\" y1=\"69\" x2=\"290\" y2=\"69\"/><line class=\"g-grid\" x1=\"18\" y1=\"52\" x2=\"290\" y2=\"52\"/><line class=\"g-grid\" x1=\"18\" y1=\"35\" x2=\"290\" y2=\"35\"/><line class=\"g-grid\" x1=\"18\" y1=\"18\" x2=\"290\" y2=\"18\"/><line class=\"g-axis\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-axis\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><text class=\"g-label\" x=\"18\" y=\"166\" text-anchor=\"middle\">&#8722;8</text><text class=\"g-label\" x=\"150\" y=\"294\" text-anchor=\"end\">&#8722;8</text><text class=\"g-label\" x=\"52\" y=\"166\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"150\" y=\"260\" text-anchor=\"end\">&#8722;6</text><text class=\"g-label\" x=\"86\" y=\"166\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"150\" y=\"226\" text-anchor=\"end\">&#8722;4</text><text class=\"g-label\" x=\"120\" y=\"166\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"150\" y=\"192\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"188\" y=\"166\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"150\" y=\"124\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"222\" y=\"166\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"150\" y=\"90\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"256\" y=\"166\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"150\" y=\"56\" text-anchor=\"end\">6</text><text class=\"g-label\" x=\"290\" y=\"166\" text-anchor=\"middle\">8</text><text class=\"g-label\" x=\"150\" y=\"22\" text-anchor=\"end\">8</text><line class=\"g-line\" x1=\"86.0\" y1=\"290.0\" x2=\"267.33\" y2=\"18.0\"/></svg></div>",
+        "LD": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 308 308\" width=\"308\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of a line passing through (-1, 8), (0, 5), (1, 2).\"><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"18\" y2=\"18\"/><line class=\"g-grid\" x1=\"35\" y1=\"290\" x2=\"35\" y2=\"18\"/><line class=\"g-grid\" x1=\"52\" y1=\"290\" x2=\"52\" y2=\"18\"/><line class=\"g-grid\" x1=\"69\" y1=\"290\" x2=\"69\" y2=\"18\"/><line class=\"g-grid\" x1=\"86\" y1=\"290\" x2=\"86\" y2=\"18\"/><line class=\"g-grid\" x1=\"103\" y1=\"290\" x2=\"103\" y2=\"18\"/><line class=\"g-grid\" x1=\"120\" y1=\"290\" x2=\"120\" y2=\"18\"/><line class=\"g-grid\" x1=\"137\" y1=\"290\" x2=\"137\" y2=\"18\"/><line class=\"g-grid\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><line class=\"g-grid\" x1=\"171\" y1=\"290\" x2=\"171\" y2=\"18\"/><line class=\"g-grid\" x1=\"188\" y1=\"290\" x2=\"188\" y2=\"18\"/><line class=\"g-grid\" x1=\"205\" y1=\"290\" x2=\"205\" y2=\"18\"/><line class=\"g-grid\" x1=\"222\" y1=\"290\" x2=\"222\" y2=\"18\"/><line class=\"g-grid\" x1=\"239\" y1=\"290\" x2=\"239\" y2=\"18\"/><line class=\"g-grid\" x1=\"256\" y1=\"290\" x2=\"256\" y2=\"18\"/><line class=\"g-grid\" x1=\"273\" y1=\"290\" x2=\"273\" y2=\"18\"/><line class=\"g-grid\" x1=\"290\" y1=\"290\" x2=\"290\" y2=\"18\"/><line class=\"g-grid\" x1=\"18\" y1=\"290\" x2=\"290\" y2=\"290\"/><line class=\"g-grid\" x1=\"18\" y1=\"273\" x2=\"290\" y2=\"273\"/><line class=\"g-grid\" x1=\"18\" y1=\"256\" x2=\"290\" y2=\"256\"/><line class=\"g-grid\" x1=\"18\" y1=\"239\" x2=\"290\" y2=\"239\"/><line class=\"g-grid\" x1=\"18\" y1=\"222\" x2=\"290\" y2=\"222\"/><line class=\"g-grid\" x1=\"18\" y1=\"205\" x2=\"290\" y2=\"205\"/><line class=\"g-grid\" x1=\"18\" y1=\"188\" x2=\"290\" y2=\"188\"/><line class=\"g-grid\" x1=\"18\" y1=\"171\" x2=\"290\" y2=\"171\"/><line class=\"g-grid\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-grid\" x1=\"18\" y1=\"137\" x2=\"290\" y2=\"137\"/><line class=\"g-grid\" x1=\"18\" y1=\"120\" x2=\"290\" y2=\"120\"/><line class=\"g-grid\" x1=\"18\" y1=\"103\" x2=\"290\" y2=\"103\"/><line class=\"g-grid\" x1=\"18\" y1=\"86\" x2=\"290\" y2=\"86\"/><line class=\"g-grid\" x1=\"18\" y1=\"69\" x2=\"290\" y2=\"69\"/><line class=\"g-grid\" x1=\"18\" y1=\"52\" x2=\"290\" y2=\"52\"/><line class=\"g-grid\" x1=\"18\" y1=\"35\" x2=\"290\" y2=\"35\"/><line class=\"g-grid\" x1=\"18\" y1=\"18\" x2=\"290\" y2=\"18\"/><line class=\"g-axis\" x1=\"18\" y1=\"154\" x2=\"290\" y2=\"154\"/><line class=\"g-axis\" x1=\"154\" y1=\"290\" x2=\"154\" y2=\"18\"/><text class=\"g-label\" x=\"18\" y=\"166\" text-anchor=\"middle\">&#8722;8</text><text class=\"g-label\" x=\"150\" y=\"294\" text-anchor=\"end\">&#8722;8</text><text class=\"g-label\" x=\"52\" y=\"166\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"150\" y=\"260\" text-anchor=\"end\">&#8722;6</text><text class=\"g-label\" x=\"86\" y=\"166\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"150\" y=\"226\" text-anchor=\"end\">&#8722;4</text><text class=\"g-label\" x=\"120\" y=\"166\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"150\" y=\"192\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"188\" y=\"166\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"150\" y=\"124\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"222\" y=\"166\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"150\" y=\"90\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"256\" y=\"166\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"150\" y=\"56\" text-anchor=\"end\">6</text><text class=\"g-label\" x=\"290\" y=\"166\" text-anchor=\"middle\">8</text><text class=\"g-label\" x=\"150\" y=\"22\" text-anchor=\"end\">8</text><line class=\"g-line\" x1=\"137.0\" y1=\"18.0\" x2=\"227.67\" y2=\"290.0\"/></svg></div>"
+      },
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Two quick skills LF1 leans on. Skip any you already have.",
+          "stops": [
+            {
+              "id": "lf1-g1",
+              "title": "Evaluate roots and fractions",
+              "target": "Evaluate a function with a square root or a fraction at a given input.",
+              "cold": "Let \\(f(x) = \\sqrt{3x + 4}\\). Find \\(f(4)\\) and \\(f(0)\\).",
+              "coldPlain": "Let f(x) = sqrt(3x + 4). Find f(4) and f(0).",
+              "coldA": "\\(f(4) = \\sqrt{16} = 4\\) and \\(f(0) = \\sqrt{4} = 2\\).",
+              "solution": "f(4) = sqrt(3(4) + 4) = sqrt(16) = 4. f(0) = sqrt(0 + 4) = sqrt(4) = 2. Simplify inside the root first.",
+              "mistake": "Taking the square root of each term separately, like sqrt(3x) + sqrt(4).",
+              "again": "Let \\(g(x) = \\dfrac{2x + 1}{x - 3}\\). Find \\(g(5)\\) and \\(g(1)\\).",
+              "againA": "\\(g(5) = \\dfrac{11}{2}\\) and \\(g(1) = \\dfrac{3}{-2} = -\\dfrac{3}{2}\\).",
+              "reflect": "What do you simplify first when there is a root or a fraction bar?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "lf1-g2",
+              "title": "Simplify a difference quotient",
+              "target": "Simplify a fraction of differences like \\(\\dfrac{-3 - 5}{2 - (-4)}\\), keeping track of negatives.",
+              "cold": "Simplify \\(\\dfrac{-3 - 5}{2 - (-4)}\\).",
+              "coldPlain": "Simplify (-3 - 5) / (2 - (-4)).",
+              "coldA": "\\(\\dfrac{-8}{6} = -\\dfrac{4}{3}\\).",
+              "solution": "Top: -3 - 5 = -8. Bottom: 2 - (-4) = 2 + 4 = 6. So -8/6 = -4/3 after dividing top and bottom by 2.",
+              "mistake": "Turning 2 - (-4) into -2, or forgetting to reduce the fraction.",
+              "again": "Simplify \\(\\dfrac{7 - (-2)}{-1 - 5}\\).",
+              "againA": "\\(\\dfrac{9}{-6} = -\\dfrac{3}{2}\\).",
+              "reflect": "What does subtracting a negative turn into?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "One stop per type of question on the LF1 check, in order.",
+          "stops": [
+            {
+              "id": "lf1-t1",
+              "title": "Slope from two points",
+              "target": "Find the slope of the line through two points using \\(m = \\dfrac{y_2 - y_1}{x_2 - x_1}\\).",
+              "cold": "Find the slope of the line through \\((-2, 5)\\) and \\((4, -7)\\).",
+              "coldPlain": "Find the slope of the line through (-2, 5) and (4, -7).",
+              "coldA": "\\(m = \\dfrac{-7 - 5}{4 - (-2)} = \\dfrac{-12}{6} = -2\\).",
+              "solution": "m = (y2 - y1)/(x2 - x1) = (-7 - 5)/(4 - (-2)) = -12/6 = -2.",
+              "mistake": "Subtracting in a different order on the top and bottom, or putting the x-values on top.",
+              "again": "Find the slope of the line through \\((3, -1)\\) and \\((-5, 3)\\).",
+              "againA": "\\(m = \\dfrac{3 - (-1)}{-5 - 3} = \\dfrac{4}{-8} = -\\dfrac{1}{2}\\).",
+              "reflect": "Why does the order of subtraction have to match on the top and bottom?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "lf1-t2",
+              "title": "Slope from a table",
+              "target": "Find the slope of a line from a table by choosing any two rows and using the slope formula.",
+              "cold": "Find the slope of the line defined by this table.<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"row\">\\(x\\)</th><td>\\(-3\\)</td><td>\\(-1\\)</td><td>\\(2\\)</td><td>\\(6\\)</td></tr><tr><th scope=\"row\">\\(y\\)</th><td>\\(-7\\)</td><td>\\(-1\\)</td><td>\\(8\\)</td><td>\\(20\\)</td></tr></table></div>",
+              "coldPlain": "Find the slope of the line defined by this table. x: -3, -1, 2, 6 | y: -7, -1, 8, 20",
+              "coldA": "\\(3\\). Using the first two rows: \\(\\dfrac{-1 - (-7)}{-1 - (-3)} = \\dfrac{6}{2} = 3\\). Any two rows give the same answer.",
+              "solution": "Pick any two rows, for example (-3, -7) and (-1, -1): m = (-1 - (-7))/(-1 - (-3)) = 6/2 = 3. Checking another pair, (2, 8) and (6, 20): 12/4 = 3.",
+              "mistake": "Using the change in y between rows without dividing by the change in x (the x-values are not evenly spaced).",
+              "again": "Find the slope of the line defined by this table.<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"row\">\\(x\\)</th><td>\\(-6\\)</td><td>\\(-3\\)</td><td>\\(3\\)</td><td>\\(9\\)</td></tr><tr><th scope=\"row\">\\(y\\)</th><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(2\\)</td><td>\\(-2\\)</td></tr></table></div>",
+              "againA": "\\(-\\dfrac{2}{3}\\). For example, \\(\\dfrac{6 - 8}{-3 - (-6)} = \\dfrac{-2}{3}\\).",
+              "reflect": "Why can you pick any two rows of the table?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "lf1-t3",
+              "title": "Slope from a graph",
+              "target": "Find the slope of a graphed line by finding two points where it crosses grid corners, then computing rise over run.",
+              "cold": "Find the slope of the line graphed below.[[graph:LA]]",
+              "coldPlain": "Find the slope of the line in the graph.",
+              "graphNote": "The graph is a straight line passing through the grid points (-2, -7), (-1, -5), (0, -3).",
+              "coldA": "\\(2\\). For example, from \\((0, -3)\\) to \\((1, -1)\\), the line rises 2 while running 1.",
+              "solution": "Find two points where the line crosses grid corners exactly, such as (0, -3) and (2, 1). Rise = 1 - (-3) = 4, run = 2 - 0 = 2. Slope = 4/2 = 2.",
+              "mistake": "Reading points that are not exactly on grid corners, or counting run as rise.",
+              "again": "Find the slope of the line graphed below.[[graph:LB]]",
+              "againA": "\\(-\\dfrac{3}{2}\\). For example, from \\((0, 1)\\) to \\((2, -2)\\): down 3, right 2.",
+              "reflect": "What makes a point a good one to read from a graph?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "lf1-t4",
+              "title": "Average rate of change",
+              "target": "Find the average rate of change of \\(f\\) on \\([a, b]\\): \\(\\dfrac{f(b) - f(a)}{b - a}\\), the slope between two points on the graph.",
+              "cold": "Find the average rate of change of \\(f(x) = x^2 - 3x + 1\\) on the interval \\([1, 4]\\).",
+              "coldPlain": "Find the average rate of change of f(x) = x^2 - 3x + 1 on the interval [1, 4].",
+              "coldA": "\\(f(4) = 5\\) and \\(f(1) = -1\\), so \\(\\dfrac{5 - (-1)}{4 - 1} = \\dfrac{6}{3} = 2\\).",
+              "solution": "Evaluate at the endpoints: f(4) = 16 - 12 + 1 = 5 and f(1) = 1 - 3 + 1 = -1. Average rate of change = (f(4) - f(1))/(4 - 1) = (5 - (-1))/3 = 6/3 = 2.",
+              "mistake": "Dividing by f-values instead of x-values, or plugging the interval endpoints into the formula without evaluating f first.",
+              "again": "Find the average rate of change of \\(g(x) = -2x^3 + x\\) on \\([-1, 2]\\).",
+              "againA": "\\(g(2) = -14\\) and \\(g(-1) = 1\\), so \\(\\dfrac{-14 - 1}{2 - (-1)} = \\dfrac{-15}{3} = -5\\).",
+              "reflect": "How is average rate of change the same idea as slope?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "lf1-t5",
+              "title": "Average rate of change with roots and fractions",
+              "target": "Find the average rate of change when the function has a square root or a fraction.",
+              "cold": "Find the average rate of change of \\(f(x) = \\sqrt{2x + 1}\\) on \\([4, 12]\\).",
+              "coldPlain": "Find the average rate of change of f(x) = sqrt(2x + 1) on [4, 12].",
+              "coldA": "\\(f(12) = 5\\) and \\(f(4) = 3\\), so \\(\\dfrac{5 - 3}{12 - 4} = \\dfrac{2}{8} = \\dfrac{1}{4}\\).",
+              "solution": "f(12) = sqrt(25) = 5 and f(4) = sqrt(9) = 3. Average rate of change = (5 - 3)/(12 - 4) = 2/8 = 1/4.",
+              "mistake": "Subtracting the x-values inside the square root, like sqrt(2(12 - 4) + 1).",
+              "again": "Find the average rate of change of \\(g(x) = \\dfrac{x + 3}{x - 1}\\) on \\([2, 5]\\).",
+              "againA": "\\(g(5) = \\dfrac{8}{4} = 2\\) and \\(g(2) = \\dfrac{5}{1} = 5\\), so \\(\\dfrac{2 - 5}{5 - 2} = -1\\).",
+              "reflect": "What is the same about every average rate of change problem, whatever the function looks like?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same format as the LF1 CheckIt exercise.",
+          "stops": [
+            {
+              "id": "lf1-f1",
+              "title": "Practice check",
+              "target": "Find an average rate of change and the slopes of three lines, given as a graph, a table, and two points.",
+              "cold": "<strong>Part 1.</strong> Find the average rate of change of \\(h(x) = 3x^2 - 4x\\) on \\([-1, 3]\\).<br><br><strong>Part 2.</strong> Calculate the slope of each line.<br>(a) The line graphed below.[[graph:LC]](b) The line defined by the table<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"row\">\\(x\\)</th><td>\\(-10\\)</td><td>\\(-5\\)</td><td>\\(5\\)</td><td>\\(10\\)</td><td>\\(15\\)</td></tr><tr><th scope=\"row\">\\(y\\)</th><td>\\(-5\\)</td><td>\\(-3\\)</td><td>\\(1\\)</td><td>\\(3\\)</td><td>\\(5\\)</td></tr></table></div>(c) The line through \\((-4, 6)\\) and \\((3, -8)\\).",
+              "coldPlain": "Part 1: Find the average rate of change of h(x) = 3x^2 - 4x on [-1, 3]. Part 2: Find the slope of (a) a graphed line, (b) the line in this table: x: -10, -5, 5, 10, 15 | y: -5, -3, 1, 3, 5, (c) the line through (-4, 6) and (3, -8).",
+              "graphNote": "For Part 2(a): The graph is a straight line passing through the grid points (-4, -8), (-2, -5), (0, -2).",
+              "coldA": "<strong>1.</strong> \\(h(3) = 15\\), \\(h(-1) = 7\\), so \\(\\dfrac{15 - 7}{3 - (-1)} = 2\\).<br><strong>2.</strong> (a) \\(\\dfrac{3}{2}\\) (b) \\(\\dfrac{2}{5}\\) (c) \\(\\dfrac{-8 - 6}{3 - (-4)} = -2\\)",
+              "solution": "Part 1: h(3) = 27 - 12 = 15 and h(-1) = 3 + 4 = 7; (15 - 7)/(3 - (-1)) = 8/4 = 2. Part 2: (a) the line passes through (0, -2) and (2, 1): rise 3, run 2, slope 3/2. (b) using (-10, -5) and (-5, -3): 2/5. (c) (-8 - 6)/(3 - (-4)) = -14/7 = -2.",
+              "mistake": "Mixing up the order of subtraction, or reading non-grid points off the graph.",
+              "again": "<strong>Part 1.</strong> Find the average rate of change of \\(k(x) = \\sqrt{3x + 1}\\) on \\([5, 16]\\).<br><br><strong>Part 2.</strong> (a) The line graphed below.[[graph:LD]](b) The line defined by the table<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"row\">\\(x\\)</th><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(5\\)</td></tr><tr><th scope=\"row\">\\(y\\)</th><td>\\(11\\)</td><td>\\(3\\)</td><td>\\(-1\\)</td><td>\\(-17\\)</td></tr></table></div>(c) The line through \\((-3, -2)\\) and \\((6, 4)\\).",
+              "againA": "<strong>1.</strong> \\(k(16) = 7\\), \\(k(5) = 4\\), so \\(\\dfrac{7 - 4}{16 - 5} = \\dfrac{3}{11}\\).<br><strong>2.</strong> (a) \\(-3\\) (b) \\(-4\\) (c) \\(\\dfrac{6}{9} = \\dfrac{2}{3}\\)",
+              "reflect": "Which way of giving a line (graph, table, or points) is hardest for you, and why?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
