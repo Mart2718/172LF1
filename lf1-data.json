@@ -214,6 +214,17 @@
       "relatedFaqs": [
         "faq-12"
       ]
+    },
+    {
+      "id": "vid-12",
+      "title": "Rate and Slope",
+      "url": "https://youtu.be/izsiAR4p4jk",
+      "description": "Connects slope and rate of change: why a line's rate of change is the same between any two points, and what that rate means.",
+      "category": "slope",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-4"
+      ]
     }
   ],
   "apps": [
